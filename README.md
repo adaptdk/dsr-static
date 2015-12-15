@@ -1,4 +1,2 @@
 # dsr-static
-# dsr-static
-# dsr-static
-# dsr-static
+Static assets for dsr.dk
