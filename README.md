@@ -1,2 +1,2 @@
 # dsr-static
-Static assets for dsr.dk website
+Static assets for dsr.dk website pages
