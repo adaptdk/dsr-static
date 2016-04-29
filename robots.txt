@@ -58,7 +58,9 @@ Disallow: /?q=user/login/
 Disallow: /?q=user/logout/
 # Diverse
 Disallow: /simpleads/
-Noindex: /files/
 Noindex: /content/
 Noindex: /search?*
 Noindex: /node/
+Noindex: */files/
+Noindex: /file/
+Noindex: /delt*
