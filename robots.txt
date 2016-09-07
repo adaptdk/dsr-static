@@ -12,7 +12,7 @@
 #
 # For more information about the robots.txt standard, see:
 # http://www.robotstxt.org/robotstxt.html
-# ABK was here 29-04-2016
+# ABK was here 07-09-2016
 
 User-agent: *
 Crawl-delay: 10
@@ -64,3 +64,4 @@ Noindex: /node/
 Noindex: */files/
 Noindex: /file/
 Noindex: /delt*
+Disallow: /dsr-generate-pdf*
