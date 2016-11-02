@@ -65,3 +65,8 @@ Noindex: */files/
 Noindex: /file/
 Noindex: /delt*
 Disallow: /dsr-generate-pdf*
+Disallow: /user/logout
+Disallow: /medlem/min-side
+Disallow: /medlem/skift-form
+Disallow: /medlem/skift-til
+Disallow: /dsr_user_mode_switch
