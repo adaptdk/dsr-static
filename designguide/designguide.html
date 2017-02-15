@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Digital designguide</title>
+
+    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="https://code.jquery.com/resources/demos/style.css">
+    
+    <link rel="stylesheet" href="designguide.css">
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+
+  $( function() {
+
+    $(".tabs").tabs();
+  
+  } );
+
+  </script>
+ 
+    
+</head>
+
+<body class="xx" style="background-color:#ffffff;">
+<div class="heading" style="padding-left:38px;"><h1><img src="https://dsr.dk/profiles/dsr/themes/custom/dsr_theme/images/logo-cut.png" style="margin-right:15px;" alt=""/>Website Designguide</h1></div>
+
+<div class="xx-container" style="margin-top:0px;">
+<h2 class="xx-section-title">Colors</h2>
+            
+            <h3>Primary Colors</h3>
+            
+            <ul class="list-no-bullets">
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #981e32;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Rød</strong></li>
+                        <li>rgb(183, 18, 52)</li>
+                        <li>#981e32</li>
+                    </ul>
+                </li>
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #6d6f64;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Mørk grå</strong></li>
+                        <li>rgb(109, 111, 100)</li>
+                        <li>#6d6f64</li>
+                    </ul>
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #C6C6BC;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Lys grå</strong></li>
+                        <li>rgb(198, 198, 188)</li>
+                        <li>#c6c6bc</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h3>Secondary Colors</h3>
+            
+            <ul class="list-no-bullets">
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #f69240;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Varm gul</strong></li>
+                        <li>rgb(246, 146, 64)</li>
+                        <li>#f69240</li>
+                    </ul>
+                </li>
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #73af55;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Grøn</strong></li>
+                        <li>rgb(115, 175, 85)</li>
+                        <li>#73afF55</li>
+                    </ul>
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #7d9aaa;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Blå</strong></li>
+                        <li>rgb(125, 154, 170)</li>
+                        <li>#7d9aaa</li>
+                    </ul>
+                </li>
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #93509e;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Lilla</strong></li>
+                        <li>rgb(147, 80, 158)</li>
+                        <li>#93509e</li>
+                    </ul>
+                </li>
+                <li class="swatch">
+                    <span class="swatch-preview" style="background-color: #b1b3b3;"></span>
+                    <ul class="list-no-bullets swatch-details">
+                        <li><strong>Grå</strong></li>
+                        <li>rgb(177, 179, 179)</li>
+                        <li>#b1b3b3</li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+<div class="xx-container">
+            <h2 class="xx-section-title">Typography</h2>
+                <h3>Fonts</h3>
+                <p>Orgon Slab</p>
+                <span style="font-family:'OrgonSlab-Regular'; font-weight: 300; font-size: 24px;">THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG<br>
+the quick brown fox jumps over the lazy dog<br>
+1234567890<br>
+¬`¦!"£$%^&amp;*()_-+={}[]:;@'~#&lt;&gt;,.?/|\</span>
+</div>
+<div class="xx-container">
+            <h2 class="xx-section-title">Elements</h2>
+                <h3>Buttons</h3>
+ 
+ <div id="tab1" class="tabs">
+
+  <ul>
+
+    <li><a href="#tab-1-1">HTML</a></li>
+
+    <li><a href="#tab-1-2">CSS</a></li>
+
+  </ul>
+
+<div id="tab-1-1">
+
+    <div class="pattern" id="button-default">
+    <details class="pattern-details">
+    <summary class="pattern-name">button-red & form-submit</summary>
+            <code class="pattern-markup language-markup">
+&lt;a class=&quot;button-red&quot; href=&quot;#&quot; &gt;Link knap&lt;/a&gt;
+&lt;div class=&quot;event-read-more button-red&quot;&gt;Vis mere&lt;/div&gt;
+&lt;input class=&quot;form-submit&quot; id=&quot;edit-submit-solr-search&quot; type=&quot;submit&quot; value=&quot;Søg&quot;&gt;
+</code>
+        <pre class="pattern-usage"><strong>Usage:</strong></pre>
+    </details>
+    <div class="pattern-preview">
+    	<a class="button-red" href="#">Link knap</a>
+        <div class="event-read-more button-red">Vis mere</div>
+        <input class="search-block form-submit" id="edit-submit-solr-search" type="submit" value="søg">  
+        </div>
+    
+</div>
+
+  </div>
+<div id="tab-1-2">
+
+    <div class="pattern" id="button-default">
+    <details class="pattern-details">
+    <summary class="pattern-name">button-red & form-submit</summary>
+            <code class="pattern-markup language-markup language-css">&lt;style&gt;
+.button-red {
+	font-family:'OrgonSlab-Bold';
+	border: 0;
+	color: #FFFFFF;
+	border-radius: 4px;
+	margin-top: 10px;
+	display: inline-block;
+	text-align: center;
+	min-width: 130px;
+	background: #981e32;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 12px;
+	font-size: 14px;
+	color: #FFFFFF !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+.form-submit {
+	font-family: "OrgonSlab-Bold";
+	border: 0;
+	color: #ffffff;
+	border-radius: 4px;
+	margin-top: 10px;
+	display: inline-block;
+	text-align: center;
+	min-width: 130px;
+	background: #981e32;
+	height: 32px;
+	line-height: 32px;
+	padding: 0px;
+	margin-top: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.search-block .form-submit {
+	font-family: "OrgonSlab-Bold";
+	min-width: 90px;
+	position: absolute;
+	right: 15px;
+	top: 11px;
+	bottom: 11px;
+	padding: 0;
+	margin-top: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+&lt;/style&gt;
+</code>
+
+  </details></div></div>
+  
+  <p style="color:#ffffff;">Author:ABK Date: 20170127</p>
+</div>
+</div>
+
+<div class="xx-container">
+<h3>Forms</h3>
+<div id="tab2" class="tabs">
+
+  <ul>
+
+    <li><a href="#tab-2-1">HTML</a></li>
+
+    <li><a href="#tab-2-2">CSS</a></li>
+
+  </ul>
+
+<div id="tab-2-1"><div class="pattern" id="fieldset.select-checkboxes-captions">
+    <details class="pattern-details">
+    <summary class="pattern-name">fieldset.select-checkboxes-captions</summary>
+            <code class="pattern-markup language-markup">&lt;form class=&quot;spotlight&quot;&gt;
+    &lt;fieldset class=&quot;select field&quot;&gt;
+        &lt;legend&gt;Checkboxes with captions &lt;abbr title=&quot;Required&quot;&gt;*&lt;/abbr&gt;&lt;/legend&gt;
+        &lt;ul class=&quot;list-form&quot;&gt;
+            &lt;li&gt;
+                &lt;label for=&quot;checkbox11&quot;&gt;&lt;input id=&quot;checkbox11&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot; checked/&gt; Choice A&lt;/label&gt;
+                &lt;small class=&quot;note&quot;&gt;Note about this option&lt;/small&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;label for=&quot;checkbox21&quot;&gt;&lt;input id=&quot;checkbox21&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot;/&gt; Choice B&lt;/label&gt;
+                &lt;small class=&quot;note&quot;&gt;Note about this option&lt;/small&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;label for=&quot;checkbox31&quot;&gt;&lt;input id=&quot;checkbox31&quot; name=&quot;checkbox&quot; type=&quot;checkbox&quot;/&gt; Choice C&lt;/label&gt;
+                &lt;small class=&quot;note&quot;&gt;Note about this option&lt;/small&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/fieldset&gt;
+&lt;/form&gt;</code>
+        <pre class="pattern-usage"><strong>Usage:</strong> Bla bla bla.....</pre>
+    </details>
+    <div class="pattern-preview">
+<form class="spotlight">
+    <fieldset class="select field">
+        <legend>Checkboxes with captions <abbr title="Required">*</abbr></legend>
+        <ul class="list-form">
+            <li>
+                <label for="checkbox11"><input id="checkbox11" name="checkbox" type="checkbox" checked/> Choice A</label>
+                <small class="note">Note about this option</small>
+            </li>
+            <li>
+                <label for="checkbox21"><input id="checkbox21" name="checkbox" type="checkbox"/> Choice B</label>
+                <small class="note">Note about this option</small>
+            </li>
+            <li>
+                <label for="checkbox31"><input id="checkbox31" name="checkbox" type="checkbox"/> Choice C</label>
+                <small class="note">Note about this option</small>
+            </li>
+        </ul>
+    </fieldset>
+</form>    </div>
+</div>
+</div>
+<div id="tab-2-2"><p>Hej jeg er CSS</p></div>
+
+ <p style="color:#ffffff;">Author:ABK Date: 20170127</p>
+</div></div></body>
+<script src="http://codeforamerica.clearleft.com/script/prism.js"></script>
+</html>
