@@ -22,18 +22,18 @@ g_arrMonths[10] = "November"
 g_arrMonths[11] = "December"
 
 // Enter the column headers
-var g_strDateTime = "Date / Time"
-var g_strStudentScore = "Student Score"
-var g_strPassingScore = "Passing Score"
-var g_strResult1 = "Result"
-var g_strQuestion = "Question"
-var g_strCorrectAns = "Correct Answer"
-var g_strResult2 = "Result"
-var g_strStudentAns = "Student Answer"
-var g_strPointsAwarded = "Points Awarded"
+var g_strDateTime = "Dato / Tid"
+var g_strStudentScore = "Score"
+var g_strPassingScore = "Beståelsesscore"
+var g_strResult1 = "Resultat"
+var g_strQuestion = "Spørgsmål"
+var g_strCorrectAns = "Korrekt svar"
+var g_strResult2 = "Resultat"
+var g_strStudentAns = "Svar"
+var g_strPointsAwarded = "Point"
 var g_strNeutral = "Neutral"
-var g_strCorrect = "Correct"
-var g_strIncorrect = "Incorrect"
+var g_strCorrect = "Korrekt"
+var g_strIncorrect = "Forkert"
 
 </SCRIPT>
 
@@ -150,10 +150,10 @@ function WriteQuizResults(strQuizId)
 	document.write("<TR>");
 	document.write("<TH>#</TH>");
 	document.write("<TH>" + g_strQuestion + "</TH>");
-	document.write("<TH>" + g_strCorrectAns + "</TH>");
+	//document.write("<TH>" + g_strCorrectAns + "</TH>");
 	document.write("<TH>" + g_strStudentAns + "</TH>");
-	document.write("<TH>" + g_strResult2 + "</TH>");
-	document.write("<TH>" + g_strPointsAwarded + "</TH>");
+	//document.write("<TH>" + g_strResult2 + "</TH>");
+	//document.write("<TH>" + g_strPointsAwarded + "</TH>");
 	document.write("</TR>");
 
 
@@ -225,7 +225,7 @@ function AddItem(oQuestion)
 	document.write("<TR>"); 
 	document.write("<TD class='NUMBER'>" + oQuestion.nQuestionNumber + "</TD>");
 	document.write("<TD class='QUESTION'>" + oQuestion.strDescription + "</TD>");
-	document.write("<TD>" + strCorrectResponse + "</TD>");
+	//document.write("<TD>" + strCorrectResponse + "</TD>");
 	document.write("<TD>" + strUserResponse + "</TD>");
 	
 	if (oQuestion.strStatus == "correct")
@@ -239,8 +239,8 @@ function AddItem(oQuestion)
 		strClass = "NEUTRAL"
 	}
 
-	document.write("<TD class='" + strClass + "'>" + strResult + "</TD>");
-	document.write("<TD>" + oQuestion.nPoints + "</TD>");
+	//document.write("<TD class='" + strClass + "'>" + strResult + "</TD>");
+	//document.write("<TD>" + oQuestion.nPoints + "</TD>");
 	document.write("</TR>");
 }
 
