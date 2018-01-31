@@ -23,6 +23,7 @@ Disallow: /modules/
 Disallow: /profiles/
 Disallow: /scripts/
 Disallow: /themes/
+Disallow: /static/
 # Files
 Disallow: /CHANGELOG.txt
 Disallow: /cron.php
