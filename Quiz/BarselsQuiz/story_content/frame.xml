@@ -1,1 +1,1134 @@
-<?xml version="1.0" encoding="utf-8"?><bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="prevnextnosubmit0001100110" textdirection="ltr" device="false"><layouts><layout name="noprevnonextsubmit0001100110" font="Articulate" controllayout="noprevnonextsubmit0001100110" colorscheme="prevnextnosubmit0001100110" string_table="prevnextnosubmit0001100110" /><layout name="prevnextnosubmit0001100110" font="Articulate" controllayout="prevnextnosubmit0001100110" colorscheme="prevnextnosubmit0001100110" string_table="prevnextnosubmit0001100110" /><layout name="noprevnextnosubmit0001100110" font="Articulate" controllayout="noprevnextnosubmit0001100110" colorscheme="prevnextnosubmit0001100110" string_table="prevnextnosubmit0001100110" /><layout name="noprevnonextnosubmit0001100110" font="Articulate" controllayout="noprevnonextnosubmit0001100110" colorscheme="prevnextnosubmit0001100110" string_table="prevnextnosubmit0001100110" /></layouts><control_options><optiongroups><optiongroup name="sidebaroptions"><options><option name="title_enabled" value="true"><options><option name="title_text" value="Barselsquiz på det regionale og kommunale område" /></options></option><option name="logo_enabled" value="false"><options><option name="logo_url" value="" /></options></option><option name="sidebar_enabled" value="true"><options><option name="sidebarpos" value="left" /></options></option><optionlist name="tabs"><listitems><listitem name="resources" value="true" group="linkright" /><listitem name="outline" value="true" group="sidebar" /><listitem name="glossary" value="false" group="sidebar" /><listitem name="transcript" value="false" group="sidebar" /></listitems></optionlist><option name="time_enabled" value="false"><options><option name="time_format" value="totalelapsed" /></options></option></options></optiongroup><optiongroup name="menuoptions"><options><option name="flow" value="free" /><option name="wraplistitems" value="false" /><option name="tooltips" value="true" /><option name="autocollapse" value="true" /><option name="autonumber" value="false" /></options></optiongroup><optiongroup name="controls"><options><option name="volume" value="true" /><option name="seekbar" value="false" /><option name="search" value="false" /></options></optiongroup><optiongroup name="bottombaroptions"><options><option name="bottombar_enabled" value="true" /></options></optiongroup></optiongroups></control_options><control_layouts><control_layout name="noprevnonextsubmit0001100110"><control name="volume" enabled="true" /><control name="seekbar" enabled="false" /><control name="replay" enabled="false" /><control name="pauseplay" enabled="false" /><control name="previous" enabled="false" /><control name="next" enabled="false" /><control name="submit" enabled="true" /><control name="resources" enabled="true" /><control name="glossary" enabled="false" /><control name="transcript" enabled="false" /><control name="outline" enabled="true"><controls><control name="search" enabled="false" /></controls></control></control_layout><control_layout name="prevnextnosubmit0001100110"><control name="volume" enabled="true" /><control name="seekbar" enabled="false" /><control name="replay" enabled="false" /><control name="pauseplay" enabled="false" /><control name="previous" enabled="true" /><control name="next" enabled="true" /><control name="submit" enabled="false" /><control name="resources" enabled="true" /><control name="glossary" enabled="false" /><control name="transcript" enabled="false" /><control name="outline" enabled="true"><controls><control name="search" enabled="false" /></controls></control></control_layout><control_layout name="noprevnextnosubmit0001100110"><control name="volume" enabled="true" /><control name="seekbar" enabled="false" /><control name="replay" enabled="false" /><control name="pauseplay" enabled="false" /><control name="previous" enabled="false" /><control name="next" enabled="true" /><control name="submit" enabled="false" /><control name="resources" enabled="true" /><control name="glossary" enabled="false" /><control name="transcript" enabled="false" /><control name="outline" enabled="true"><controls><control name="search" enabled="false" /></controls></control></control_layout><control_layout name="noprevnonextnosubmit0001100110"><control name="volume" enabled="true" /><control name="seekbar" enabled="false" /><control name="replay" enabled="false" /><control name="pauseplay" enabled="false" /><control name="previous" enabled="false" /><control name="next" enabled="false" /><control name="submit" enabled="false" /><control name="resources" enabled="true" /><control name="glossary" enabled="false" /><control name="transcript" enabled="false" /><control name="outline" enabled="true"><controls><control name="search" enabled="false" /></controls></control></control_layout></control_layouts><colorschemes><colorscheme name="prevnextnosubmit0001100110"><color_group name="timer"><group_colors><color name="duration"><fill type="linear" rotation="90"><colors><color rgb="0x00D7FF" alpha="100" stop="0" /><color rgb="0x00ABFF" alpha="100" stop="255" /></colors></fill></color><color name="elapsed"><fill type="linear" rotation="90"><colors><color rgb="0xFEE347" alpha="100" stop="0" /><color rgb="0xFCCC2A" alpha="100" stop="255" /></colors></fill></color><color name="stroke"><fill type="linear" rotation="90"><colors><color rgb="0xC7C7C7" alpha="100" stop="0" /></colors></fill></color><color name="inner"><fill type="linear" rotation="90"><colors><color rgb="0xFFFFFF" alpha="100" stop="0" /></colors></fill></color><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="window"><group_colors><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color><color name="inner"><fill type="linear" rotation="90"><colors><color rgb="0xEAEAEA" alpha="100" stop="0" /><color rgb="0xCFCFCF" alpha="100" stop="255" /></colors></fill></color><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xF3F3F3" alpha="100" stop="0" /></colors></fill></color><color name="diva"><fill type="linear" rotation="90"><colors><color rgb="0xF7F7F7" alpha="100" stop="0" /></colors></fill></color><color name="divb"><fill type="linear" rotation="90"><colors><color rgb="0xD3D3D3" alpha="100" stop="0" /></colors></fill></color><color name="shadow"><fill type="linear" rotation="90"><colors><color rgb="0x000000" alpha="20" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="editor"><group_colors><color name="slide_text"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color><color name="html_text"><fill type="linear" rotation="90"><colors><color rgb="0x444444" alpha="100" stop="0" /></colors></fill></color><color name="btn_bg"><fill type="linear" rotation="90"><colors><color rgb="0xF5F5F5" alpha="100" stop="0" /><color rgb="0xC7C7C7" alpha="100" stop="255" /></colors></fill></color><color name="btn_hover"><fill type="linear" rotation="90"><colors><color rgb="0xF2F2F2" alpha="100" stop="0" /><color rgb="0xAFAFAF" alpha="100" stop="255" /></colors></fill></color><color name="btn_down"><fill type="linear" rotation="90"><colors><color rgb="0xC7C7C7" alpha="100" stop="0" /><color rgb="0xF4F4F4" alpha="100" stop="255" /></colors></fill></color><color name="btn_border"><fill type="linear" rotation="90"><colors><color rgb="0xB1B1B1" alpha="100" stop="0" /></colors></fill></color><color name="btn_text"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="btn_text_shadow"><fill type="linear" rotation="90"><colors><color rgb="0xF0F0F0" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="listitem"><group_colors><color name="selected_text"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="lines"><fill type="linear" rotation="90"><colors><color rgb="0xDFDFDF" alpha="100" stop="0" /></colors></fill></color><color name="hover"><fill type="linear" rotation="90"><colors><color rgb="0xE6E6E6" alpha="100" stop="0" /></colors></fill></color><color name="viewed"><fill type="linear" rotation="90"><colors><color rgb="0x909090" alpha="100" stop="0" /></colors></fill></color><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="selected"><fill type="linear" rotation="90"><colors><color rgb="0xC0E2F1" alpha="100" stop="0" /></colors></fill></color><color name="shadow"><fill type="linear" rotation="90"><colors><color rgb="0xFFFFFF" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="base"><group_colors><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color><color name="diva"><fill type="linear" rotation="90"><colors><color rgb="0xD3D3D3" alpha="100" stop="0" /></colors></fill></color><color name="divb"><fill type="linear" rotation="90"><colors><color rgb="0xF7F7F7" alpha="100" stop="0" /></colors></fill></color><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xE9E9E9" alpha="100" stop="0" /><color rgb="0xCFCFCF" alpha="100" stop="255" /></colors></fill></color><color name="border"><fill type="linear" rotation="90"><colors><color rgb="0xE9E9E9" alpha="100" stop="0" /><color rgb="0xF3F3F3" alpha="100" stop="255" /></colors></fill></color><color name="menu_shade"><fill type="linear" rotation="90"><colors><color rgb="0xDBDBDB" alpha="100" stop="0" /><color rgb="0xC3C3C3" alpha="100" stop="255" /></colors></fill></color><color name="slide_bg"><fill type="linear" rotation="90"><colors><color rgb="0xE9E9E9" alpha="100" stop="0" /><color rgb="0xCFCFCF" alpha="100" stop="255" /></colors></fill></color></group_colors></color_group><color_group name="button"><group_colors><color name="btn_bg"><fill type="linear" rotation="90"><colors><color rgb="0xF5F5F5" alpha="100" stop="0" /><color rgb="0xC7C7C7" alpha="100" stop="255" /></colors></fill></color><color name="btn_hover"><fill type="linear" rotation="90"><colors><color rgb="0xF2F2F2" alpha="100" stop="0" /><color rgb="0xAFAFAF" alpha="100" stop="255" /></colors></fill></color><color name="btn_down"><fill type="linear" rotation="90"><colors><color rgb="0xC7C7C7" alpha="100" stop="0" /><color rgb="0xF4F4F4" alpha="100" stop="255" /></colors></fill></color><color name="btn_border"><fill type="linear" rotation="90"><colors><color rgb="0xB1B1B1" alpha="100" stop="0" /></colors></fill></color><color name="btn_text"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="btn_text_shadow"><fill type="linear" rotation="90"><colors><color rgb="0xF0F0F0" alpha="100" stop="0" /></colors></fill></color><color name="btn_icon_color"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="btn_glow"><fill type="linear" rotation="90"><colors><color rgb="0xCFCFCF" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="checkbox"><group_colors><color name="border"><fill type="linear" rotation="90"><colors><color rgb="0xB8B8B8" alpha="100" stop="0" /></colors></fill></color><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xFFFFFF" alpha="100" stop="0" /></colors></fill></color><color name="check"><fill type="linear" rotation="90"><colors><color rgb="0x33CC00" alpha="100" stop="0" /></colors></fill></color><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x444444" alpha="100" stop="0" /></colors></fill></color><color name="hover"><fill type="linear" rotation="90"><colors><color rgb="0x6BF8FF" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="logo"><group_colors><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xFFFFFF" alpha="100" stop="0" /></colors></fill></color><color name="shadow"><fill type="linear" rotation="90"><colors><color rgb="0xB8B8B8" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="menu"><group_colors><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xF3F3F3" alpha="100" stop="0" /></colors></fill></color><color name="shadow"><fill type="linear" rotation="90"><colors><color rgb="0xB8B8B8" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="scrollarea"><group_colors><color name="bg"><fill type="linear" rotation="0"><colors><color rgb="0xDEDEDE" alpha="100" stop="0" /><color rgb="0xE8E8E8" alpha="100" stop="128" /></colors></fill></color><color name="border"><fill type="linear" rotation="90"><colors><color rgb="0xF6F6F6" alpha="100" stop="0" /><color rgb="0xF3F3F3" alpha="100" stop="255" /></colors></fill></color><color name="button_bg"><fill type="linear" rotation="90"><colors><color rgb="0xC4C4C4" alpha="100" stop="0" /><color rgb="0xB2B2B2" alpha="100" stop="255" /></colors></fill></color><color name="button_inner"><fill type="linear" rotation="90"><colors><color rgb="0xCBCBCB" alpha="100" stop="0" /><color rgb="0xBABABA" alpha="100" stop="255" /></colors></fill></color><color name="button_border"><fill type="linear" rotation="90"><colors><color rgb="0xB8B8B8" alpha="100" stop="0" /></colors></fill></color><color name="icons"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color><color name="shadow"><fill type="linear" rotation="90"><colors><color rgb="0xD9D9D9" alpha="100" stop="0" /></colors></fill></color><color name="detaila"><fill type="linear" rotation="90"><colors><color rgb="0xA7A7A7" alpha="100" stop="0" /></colors></fill></color><color name="detailb"><fill type="linear" rotation="90"><colors><color rgb="0xCFCFCF" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="searchinput"><group_colors><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xDFDFDF" alpha="100" stop="0" /></colors></fill></color><color name="border"><fill type="linear" rotation="90"><colors><color rgb="0xADADAD" alpha="100" stop="0" /><color rgb="0xFAFAFA" alpha="100" stop="255" /></colors></fill></color><color name="icon"><fill type="linear" rotation="90"><colors><color rgb="0x8A8A8A" alpha="100" stop="0" /></colors></fill></color><color name="button_hover"><fill type="linear" rotation="90"><colors><color rgb="0xF5F5F5" alpha="100" stop="0" /><color rgb="0xC7C7C7" alpha="100" stop="255" /></colors></fill></color><color name="hover_glow"><fill type="linear" rotation="90"><colors><color rgb="0x6BF8FF" alpha="100" stop="0" /></colors></fill></color><color name="search_text"><fill type="linear" rotation="90"><colors><color rgb="0x8A8A8A" alpha="100" stop="0" /></colors></fill></color><color name="bg_active"><fill type="linear" rotation="90"><colors><color rgb="0xFAFAFA" alpha="100" stop="0" /></colors></fill></color><color name="text_active"><fill type="linear" rotation="90"><colors><color rgb="0x333333" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="seekcontrol"><group_colors><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xF5F5F5" alpha="100" stop="0" /><color rgb="0xC7C7C7" alpha="100" stop="255" /></colors></fill></color><color name="border"><fill type="linear" rotation="90"><colors><color rgb="0xB1B1B1" alpha="100" stop="0" /></colors></fill></color><color name="text_color"><fill type="linear" rotation="90"><colors><color rgb="0x000000" alpha="100" stop="0" /></colors></fill></color><color name="seek_border"><fill type="linear" rotation="90"><colors><color rgb="0xB8B8B8" alpha="100" stop="0" /><color rgb="0xEEEEEE" alpha="100" stop="255" /></colors></fill></color><color name="seek_bg"><fill type="linear" rotation="90"><colors><color rgb="0xE7E7E7" alpha="100" stop="0" /></colors></fill></color><color name="seek_position"><fill type="linear" rotation="90"><colors><color rgb="0xFFFFFF" alpha="100" stop="0" /></colors></fill></color><color name="btn_icon_color"><fill type="linear" rotation="90"><colors><color rgb="0x2D2D2D" alpha="100" stop="0" /></colors></fill></color><color name="btn_icon_hover"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color><color name="btn_icon_shadow"><fill type="linear" rotation="90"><colors><color rgb="0xF0F0F0" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="tabs"><group_colors><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xF3F3F3" alpha="100" stop="0" /></colors></fill></color><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x555555" alpha="100" stop="0" /></colors></fill></color><color name="selected"><fill type="linear" rotation="90"><colors><color rgb="0x333333" alpha="100" stop="0" /></colors></fill></color><color name="hover"><fill type="linear" rotation="90"><colors><color rgb="0x333333" alpha="100" stop="0" /></colors></fill></color><color name="shadow"><fill type="linear" rotation="90"><colors><color rgb="0xF0F0F0" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="transcript"><group_colors><color name="div"><fill type="linear" rotation="90"><colors><color rgb="0xE1E1E1" alpha="100" stop="0" /></colors></fill></color><color name="heading_text"><fill type="linear" rotation="90"><colors><color rgb="0x444444" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="outline"><group_colors><color name="diva"><fill type="linear" rotation="90"><colors><color rgb="0xC6C6C6" alpha="100" stop="0" /></colors></fill></color><color name="divb"><fill type="linear" rotation="90"><colors><color rgb="0xF9F9F9" alpha="100" stop="0" /></colors></fill></color><color name="divc"><fill type="linear" rotation="90"><colors><color rgb="0xE1E1E1" alpha="100" stop="0" /></colors></fill></color><color name="icon_color"><fill type="linear" rotation="90"><colors><color rgb="0xFF0000" alpha="100" stop="0" /></colors></fill></color><color name="search_text"><fill type="linear" rotation="90"><colors><color rgb="0x444444" alpha="100" stop="0" /></colors></fill></color><color name="search_hover"><fill type="linear" rotation="90"><colors><color rgb="0x0000EE" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="resource"><group_colors><color name="separator"><fill type="linear" rotation="90"><colors><color rgb="0xE0E0E0" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="glossary"><group_colors><color name="selected_text"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="selected"><fill type="linear" rotation="90"><colors><color rgb="0xC0E2F1" alpha="100" stop="0" /></colors></fill></color><color name="text"><fill type="linear" rotation="90"><colors><color rgb="0x353535" alpha="100" stop="0" /></colors></fill></color><color name="hover"><fill type="linear" rotation="90"><colors><color rgb="0xE6E6E6" alpha="100" stop="0" /></colors></fill></color><color name="diva"><fill type="linear" rotation="90"><colors><color rgb="0xE2E2E2" alpha="100" stop="0" /></colors></fill></color><color name="divb"><fill type="linear" rotation="90"><colors><color rgb="0xE2E2E2" alpha="100" stop="0" /></colors></fill></color><color name="divc"><fill type="linear" rotation="90"><colors><color rgb="0xFAFAFA" alpha="100" stop="0" /></colors></fill></color><color name="bg"><fill type="linear" rotation="90"><colors><color rgb="0xE7E7E7" alpha="100" stop="0" /></colors></fill></color><color name="heading_text"><fill type="linear" rotation="90"><colors><color rgb="0x444444" alpha="100" stop="0" /></colors></fill></color></group_colors></color_group><color_group name="volume"><group_colors><color name="thumb_border"><fill type="linear" rotation="90"><colors><color rgb="0xA5A5A5" alpha="100" stop="0" /></colors></fill></color><color name="thumb_inner"><fill type="linear" rotation="90"><colors><color rgb="0xD4D4D4" alpha="100" stop="0" /></colors></fill></color><color name="thumb_bg"><fill type="linear" rotation="90"><colors><color rgb="0xC8C8C8" alpha="100" stop="0" /></colors></fill></color><color name="slider_border"><fill type="linear" rotation="90"><colors><color rgb="0xF2F2F2" alpha="100" stop="0" /></colors></fill></color><color name="slider_bg"><fill type="linear" rotation="90"><colors><color rgb="0xBCBCBC" alpha="100" stop="0" /><color rgb="0xBCBCBC" alpha="100" stop="128" /><color rgb="0xC3C3C3" alpha="100" stop="255" /></colors></fill></color></group_colors></color_group></colorscheme></colorschemes><string_tables><string_table name="prevnextnosubmit0001100110"><string id="prev">FORRIGE</string><string id="next">NÆSTE</string><string id="submit">Fortsæt</string><string id="outline">Menu</string><string id="resources" /><string id="glossary">Ordliste</string><string id="transcript">Noter</string><string id="clear">Ryd, og vend tilbage til menu</string><string id="search_results">Søgeresultater</string><string id="filter">Filter</string><string id="slide_text_chk">Diastekst</string><string id="transcript_chk">Noter</string><string id="search_in">Søg i:</string><string id="check_include">Sæt kryds for at medtage</string><string id="search">Søg...</string><string id="terms">Termer</string><string id="definition">Definition</string><string id="acc_definition">definition</string><string id="acc_resources" /><string id="acc_search_input">søg</string><string id="acc_pause">pause</string><string id="acc_play">afspil</string><string id="acc_replay">gentag</string><string id="acc_submit">Fortsæt</string><string id="acc_next">næste</string><string id="acc_previous">forrige</string><string id="acc_volume">lydstyrke</string></string_table></string_tables><sounds enabled="false" /><nav_data><outline><links><slidelink slideid="_player.6DFWuPjDaYc" displaytext="Barselquiz" expand="true"><links><slidelink slideid="_player.6DFWuPjDaYc.5jeuALmTvyu" displaytext="E-learningsopgave om BARSEL" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5keDWOcUUqo" displaytext="Indledning til opgaven" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5idKoFF8ZC1" displaytext="1)	I hvilket regelgrundlag beskrives reglerne for afholdelse af barsel?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.638igtypazu" displaytext="2)	I hvor mange uger før fødslen har en kvindelig sygeplejerske ret til lønnet barselsorlov? " expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5l6o9E1FXpm" displaytext="3)	Hvordan kan forældrene holde orlov i de første 14 uger efter fødslen? " expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.6oXvjHzvrgS" displaytext="4) Er det korrekt, at der ifølge barselsaftalen er reserveret 7 ugers barsel til faderen? " expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.6NFmdw3yOqs" displaytext="5) 6-7-6 modellen: Efter den 14. uge efter fødslen (dvs i forældreorlovsperioden) har moren ret til yderligere 6 ugers fravær med sædvanlig løn. I samme periode har faren ret til 7 ugers fravær med sædvanlig løn som enten kan placeres samtidig med morens fravær eller i forlængelse af det. Herudover har forældrene yderligere 6 ugers lønnet forældreorlov (§ 10, stk. 5). Betyder det:" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5iF3HiMk5qF" displaytext="6) Hvad betyder det i forhold til 6-7-6 reglen, hvis det kun er den ene forælder, der er ansat kommunalt/regionalt?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.6NFLetYBz5j" displaytext="7) En kvindelig sygeplejerske har forventet termin den 1. marts 2015. Hendes orlov starter 8 uger før, den 4. januar 2015. Hun føder den 8. marts 2015, hvorefter hun holder 14 ugers orlov (som er reserveret til moren) med sædvanlig løn. Derefter holder hun 12 ugers orlov med sædvanlig løn og holder derefter 20 ugers orlov med dagpenge. I dagpengeperioden indbetaler arbejdsgiveren pensionsbidrag. Er det et eksemplarisk barselsforløb ifølge reglerne for barselsorlov?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.6ZaSyN9H7mV" displaytext="8) Hvor mange måneder før den forventede fødsel skal kvinden senest varsle sin arbejdsgiver om, at hun er gravid og på et senere tidspunkt skal have barselsorlov?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.63ASF9fIi5h" displaytext="9) Hvor mange uger efter fødslen skal både kvinden og manden orientere arbejdsgiveren om, hvornår arbejdet genoptages, om orloven forlænges og om der udskydes orlov?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5e2Tabjazwq" displaytext="10) Hvor mange uger kan mor og far forlænge sin forældreorlovsperiode med?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5annv3XROUB" displaytext="11) Hvor mange omsorgsdage med sædvanlig løn har en medarbejder ret til pr. kalenderår til og med det kalenderår, hvor barnet fylder 7 år" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.6rmMZOnmi97" displaytext="12) Har man ret til frihed med løn til behandling for barnløshed?" expand="true" /><slidelink slideid="_player.6DFWuPjDaYc.5oaXav7ehwK" displaytext="13) Indeholder aftalen om fravær af familiemæssige årsager orlovsregler i forhold til orlov for adoptanter?" expand="true" /></links></slidelink></links></outline></nav_data><resource_data description="&lt;p align='left'&gt;&lt;font face='Articulate' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" /><transcript_data /><glossary_data /></bwFrame>
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00001100001" font="Articulate" controllayout="npnxnanbsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="pxabnsnfns00001100001" font="Articulate" controllayout="pxabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="npxnabnsnfns00001100001" font="Articulate" controllayout="npxnabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="npnxnanbnsnfns00001100001" font="Articulate" controllayout="npnxnanbnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="pxabnsnfns00001100000" font="Articulate" controllayout="pxabnsnfns00001100000" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+    <layout name="pxnanbnsnfns00001100001" font="Articulate" controllayout="pxnanbnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Barselsquiz på det regionale og kommunale område" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="totalelapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001100001">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001100001">
+      <string id="check_include">Sæt kryds for at medtage</string>
+      <string id="clear">Ryd, og vend tilbage til menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Ordliste</string>
+      <string id="terms">Termer</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NÆSTE</string>
+      <string id="acc_next">næste</string>
+      <string id="transcript_chk">Noter</string>
+      <string id="transcript">Noter</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">afspil</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">FORRIGE</string>
+      <string id="acc_previous">forrige</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">gentag</string>
+      <string id="resources" />
+      <string id="acc_resources" />
+      <string id="restart">Restart</string>
+      <string id="search">Søg...</string>
+      <string id="acc_search_input">søg</string>
+      <string id="search_in">Søg i:</string>
+      <string id="search_results">Søgeresultater</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Diastekst</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">Fortsæt</string>
+      <string id="acc_submit">Fortsæt</string>
+      <string id="acc_volume">lydstyrke</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Articulate">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6DFWuPjDaYc" displaytext="Barselquiz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DFWuPjDaYc.5jeuALmTvyu" displaytext="E-learningsopgave om BARSEL" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5keDWOcUUqo" displaytext="Indledning til opgaven" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5idKoFF8ZC1" displaytext="Spørgsmål 1: &#xA;	&#xA;I hvilket regelgrundlag beskrives reglerne for afholdelse af barsel?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.638igtypazu" displaytext="Spørgsmål 2:&#xA;&#xA;I hvor mange uger før fødslen har en kvindelig sygeplejerske ret til lønnet barselsorlov? " expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5l6o9E1FXpm" displaytext="Spørgsmål 3:&#xA;&#xA;Hvordan kan forældrene holde orlov i de første 14 uger efter fødslen? " expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.6oXvjHzvrgS" displaytext="Spørgsmål 4:&#xA; &#xA;Er det korrekt, at der ifølge barselsaftalen er reserveret 7 ugers barsel til faderen? " expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.6NFmdw3yOqs" displaytext="Spørgsmål 5:&#xA; &#xA;6-7-6 modellen: &#xA;Efter den 14. uge efter fødslen (dvs i forældreorlovsperioden) har moren ret til yderligere 6 ugers fravær med sædvanlig løn. &#xA;I samme periode har faren ret til 7 ugers fravær med sædvanlig løn som enten kan placeres samtidig med morens fravær eller i forlængelse af det. &#xA;Herudover har forældrene yderligere 6 ugers lønnet forældreorlov (§ 10, stk. 5). &#xA;&#xA;Betyder det:" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5iF3HiMk5qF" displaytext="Spørgsmål 6: &#xA;&#xA;Hvad betyder det i forhold til 6-7-6 reglen, hvis det kun er den ene forælder, der er ansat kommunalt/regionalt?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.6NFLetYBz5j" displaytext="Spørgsmål 7:&#xA;&#xA;En kvindelig sygeplejerske har forventet termin den 1. marts 2017. &#xA;Hendes orlov starter 8 uger før, den 4. januar 2017. &#xA;Hun føder den 8. marts 2017, hvorefter hun holder 14 ugers orlov (som er reserveret til moderen) med sædvanlig løn. &#xA;Derefter holder hun 12 ugers orlov med sædvanlig løn og holder derefter 20 ugers orlov med dagpenge. &#xA;I dagpengeperioden indbetaler arbejdsgiveren pensionsbidrag. &#xA;&#xA;Er det et eksemplarisk barselsforløb ifølge reglerne for barselsorlov?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.6ZaSyN9H7mV" displaytext="Spørgsmål 8: &#xA;&#xA;Hvor mange måneder før den forventede fødsel skal kvinden senest varsle sin arbejdsgiver om, at hun er gravid og på et senere tidspunkt skal have barselsorlov?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.63ASF9fIi5h" displaytext="Spørgsmål 9:&#xA;&#xA;Hvor mange uger efter fødslen skal både kvinden og manden orientere arbejdsgiveren om, hvornår arbejdet genoptages, om orloven forlænges og om der udskydes orlov?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5e2Tabjazwq" displaytext="Spørgsmål 10:&#xA;&#xA;Hvor mange uger kan mor og far forlænge sin forældreorlovsperiode med?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5annv3XROUB" displaytext="Spørgsmål 11:&#xA;&#xA;Hvor mange omsorgsdage med sædvanlig løn har en medarbejder ret til per kalenderår til og med det kalenderår, hvor barnet fylder 7 år?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.6rmMZOnmi97" displaytext="Spørgsmål 12:&#xA;&#xA;Har man ret til frihed med løn til behandling for barnløshed?" expand="false" type="slide" />
+            <slidelink slideid="_player.6DFWuPjDaYc.5oaXav7ehwK" displaytext="Spørgsmål 13:&#xA;&#xA;Indeholder aftalen om fravær af familiemæssige årsager orlovsregler i forhold til orlov for adoptanter?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Articulate' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
