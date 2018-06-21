@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
     <layout name="npnxnanbsnfns00001100001" font="Articulate" controllayout="npnxnanbsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
     <layout name="pxabnsnfns00001100001" font="Articulate" controllayout="pxabnsnfns00001100001" colorscheme="pxabnsnfns00001100001" string_table="pxabnsnfns00001100001" />
@@ -75,6 +75,13 @@
       <optiongroup name="bottombaroptions">
         <options>
           <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -1025,6 +1032,7 @@
   </colorschemes>
   <string_tables>
     <string_table name="pxabnsnfns00001100001">
+      <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to Menu</string>
       <string id="close">Close</string>
@@ -1058,6 +1066,7 @@
       <string id="resources" />
       <string id="acc_resources" />
       <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
       <string id="search">Search...</string>
       <string id="acc_search_input">search</string>
       <string id="search_in">Search in:</string>
