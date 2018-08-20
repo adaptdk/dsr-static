@@ -12,7 +12,7 @@
 #
 # For more information about the robots.txt standard, see:
 # http://www.robotstxt.org/robotstxt.html
-# ABK was here 11-07-2018
+# ABK was here 20-08-2018
 
 User-agent: *
 Crawl-delay: 10
