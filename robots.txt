@@ -24,7 +24,6 @@ Disallow: /profiles/
 Disallow: /scripts/
 Disallow: /themes/
 Disallow: /static/
-Disallow: /sites/default/
 # Files
 Disallow: /CHANGELOG.txt
 Disallow: /cron.php
@@ -60,6 +59,7 @@ Disallow: /?q=user/login/
 Disallow: /?q=user/logout/
 # Diverse
 Disallow: /simpleads/
+Noindex: /sites/default/
 Noindex: /content/
 Noindex: /search?*
 Noindex: /node/
