@@ -12,7 +12,7 @@
 #
 # For more information about the robots.txt standard, see:
 # http://www.robotstxt.org/robotstxt.html
-# ABK was here 20-08-2018
+# ABK was here 07-08-2020
 
 User-agent: *
 Crawl-delay: 10
@@ -61,6 +61,7 @@ Disallow: /?q=user/logout/
 Disallow: /simpleads/
 Noindex: /sites/default/
 Noindex: /content/
+Noindex: /article-theme/
 Noindex: /search?*
 Noindex: /node/
 Noindex: */files/
