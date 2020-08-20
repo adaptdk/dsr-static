@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://dsr.dk/static/timeline/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="https://dsr.dk/static/timeline/style.css"> <!-- Resource style -->
+  	
+	<title>Horizontal Timeline</title>
+</head>
+<body>
+<section class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="01/01/2017" class="selected">30. september</a></li><!-- alternativ data-date for at begrænse tidslinjelængden: 1 dags mellemrum = 1-15 dage; 2 dags mellemrum 15-40 dage; 3 dags mellemrum = 40+ dage -->
+					<li><a href="#0" data-date="03/01/2017">1. oktober</a></li>
+					<li><a href="#0" data-date="07/01/2017">5. oktober</a></li>
+					<li><a href="#0" data-date="09/01/2017">6. oktober</a></li>
+					<li><a href="#0" data-date="14/01/2017">19. oktober</a></li>
+					<li><a href="#0" data-date="16/01/2017">19. oktober</a></li>
+					<li><a href="#0" data-date="18/01/2017">20. oktober</a></li>
+					<li><a href="#0" data-date="20/01/2017">21. oktober</a></li>
+					<li><a href="#0" data-date="24/01/2017">25. oktober</a></li>
+					<li><a href="#0" data-date="29/01/2017">8. november</a></li>
+					<li><a href="#0" data-date="31/01/2017">9. november</a></li>
+					<li><a href="#0" data-date="02/02/2017">10. november</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="01/01/2017">
+				<h2>Opstillingsfrist kl. 15</h2>
+				<em>30. september</em>
+				<p>&nbsp;</p>
+			</li>
+
+			<li data-date="03/01/2017">
+				<h2>Formandskandidaterne præsenterer sig med billede og valgoplæg på dsr.dk/valg2020</h2>
+				<em>1. oktober</em>
+				<p>&nbsp;</p>
+			</li>
+
+			<li data-date="07/01/2017">
+				<h2>Valgmøde i Kreds Syddanmark kl. 17-20</h2>
+				<em>5. oktober</em>
+				<p>&nbsp;</p>
+			</li>
+
+			<li data-date="09/01/2017">
+				<h2>Valgmøde i Kreds Midtjylland kl. 17-19</h2>
+				<em>6. oktober</em>
+				<p>&nbsp;</p>
+			</li>
+
+			<li data-date="14/01/2017">
+				<h2>Valgmøde i Kreds Hovedstaden kl. 16.30-19.30</h2>
+				<em>19. oktober</em>
+				<p>&nbsp;</p>
+			</li>
+
+			<li data-date="16/01/2017">
+				<h2>Sygeplejersken udkommer med præsentation af formandskandidaterne</h2>
+				<em>19. – 23. oktober</em>
+				<p>Kandidaterne præsenterer sig med billede, valgoplæg og CV i Sygeplejersken nr. 12, som udsendes til medlemmerne 19. – 23. oktober.</p>
+			</li>
+
+			<li data-date="18/01/2017">
+				<h2>Valgmøde i Kreds Sjælland kl. 17-19</h2>
+				<em>20. oktober</em>
+				<p>&nbsp;</p>
+			</li>
+			
+			<li data-date="20/01/2017">
+				<h2>Valgmøde i Kreds Nordjylland kl. 17-20</h2>
+				<em>21. oktober</em>
+				<p>&nbsp;</p>
+			</li>
+
+			<li data-date="24/01/2017">
+				<h2>Afstemningen går i gang</h2>
+				<em>25. oktober</em>
+				<p>Afstemningen foregår elektronisk. Vi sender en mail til alle stemmeberettigede medlemmer, der har registreret deres mailadresse i DSR. I mailen er et personligt link til afstemningen.<br<<br>Hvis vi ikke har din mail, modtager du et brev med posten, så du kan stemme via <a href="https://dsr.dk/valg2020">dsr.dk/valg2020</a>.<br><br>Hvis du ikke har modtaget en mail eller et brev med pinkode, kan du stemme med dit NemID på <a href="https://dsr.dk/valg2020">dsr.dk/valg2020</a>
+				</p>
+			</li>
+
+			<li data-date="29/01/2017">
+				<h2>Afstemningen lukkes kl. 23:59</h2>
+				<em>8. november</em>
+				<p>&nbsp;</p>
+			</li>
+			
+			<li data-date="31/01/2017">
+				<h2>Valgets resultat offentliggøres ca. kl. 14</h2>
+				<em>9. november</em>
+				<p>&nbsp;</p>
+			</li>
+			
+			<li data-date="02/02/2017">
+				<h2>Den valgte formand tiltræder</h2>
+				<em>10. november</em>
+				<p>&nbsp;</p>
+			</li>
+			
+		</ol>
+	</div> <!-- .events-content -->
+</section>
+	
+<script src="https://dsr.dk/static/timeline/jquery-2.1.4.js"></script>
+<script src="https://dsr.dk/static/timeline/jquery.mobile.custom.min.js"></script>
+<script src="https://dsr.dk/static/timeline/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
