@@ -73,3 +73,11 @@ Disallow: /medlem/min-side
 Disallow: /medlem/skift-form
 Disallow: /medlem/skift-til
 Disallow: /dsr_user_mode_switch
+
+# http://www.majestic12.co.uk/projects/dsearch/mj12bot.php
+User-agent: MJ12bot
+Disallow: /
+
+# http://webmeup-crawler.com
+User-agent: BLEXBot
+Disallow: /
