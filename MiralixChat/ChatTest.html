@@ -103,18 +103,10 @@
             <img src="https://i2.wp.com/www.miralix.dk/wp-content/uploads/Miralix-intelligent-haandtering-af-kundekontakt.png?resize=150%2C55&ssl=1" alt="" width="120px" height="auto">
         </a>
 
-
-        <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#" onclick="setWebChatRoutingString('WebChatDSR')">
-                    WebChatDSR
-                </a>
-            </li>
-        </ul>
     </nav>
 
     <div class="alert alert-primary alert-dismissible fade show shadow" style="background-color: #cdd6e3;color: #081932;" role="alert">
-        <strong>Miralix Webchat Eksempel</strong>
+        <strong>DSR Webchat Eksempel</strong>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
@@ -122,7 +114,7 @@
         <div style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
             <input id="beginChat" type="button" onclick="renderUserInfoForm()" class="btn btn-primary shadow" value="Chat">
             <input id="endChat" class="btn btn-primary shadow" type="button" onclick="disconnectWebChat()" value="Afslut chat" style="display: none;">
-            <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh">
+            <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh"><br/>
             <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5>
             <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p>
         </div>
@@ -133,9 +125,10 @@
                     <div class="card text-center shadow" style="width: 20rem;">
                         <div class="card-body">
                             <form id="webChatForm">
+				<p>Her kan du chatte med os om medlemskab og kontingent.</p>
                                 <h2>Chat infomation</h2>
 
-
+				<p>For at kunne hjælpe dig bedst muligt, bedes du udfylde:</p>
                                 <div class="form-group">
                                     <label for="name">Navn</label>
                                     <input type="text" class="form-control" placeholder="name" id="name" name="name">
@@ -148,15 +141,16 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="samtykke">Samtykke</label>
-                                    <input type="checkbox" class="form-control" placeholder="samtykke" id="samtykke" name="samtykke">
+                                    <label for="samtykke">Samtykke: DSR må gerne gemme min chat. Jeg kan til enhver tid trække samtykket tilbage.</label>
+                                    <input type="checkbox" placeholder="samtykke" id="samtykke" name="samtykke">
                                 </div>
-
-                                <label>Routing Streng</label>
+				<p>Læs mere på <a href="dsr.dk/privatlivspolitik">dsr.dk/privatlivspolitik</a></p>
+                                <!--
+				<label>Routing Streng</label>
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('WebChatDSR')">WebChatDSR</a>
                                 </div>
-
+				-->
                         </div>
 
                         <br>
@@ -174,7 +168,7 @@
 </body>
 
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
-<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=1"></script>
+<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=2"></script>
 <script>
     function refreshPage() {
         window.location.reload();
