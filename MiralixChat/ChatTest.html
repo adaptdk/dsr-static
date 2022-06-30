@@ -110,16 +110,6 @@
                     WebChatDSR
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" onclick="setWebChatRoutingString('Routing2')">
-                    Routing2
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" onclick="setWebChatRoutingString('Routing3')">
-                    Routing3
-                </a>
-            </li>
         </ul>
     </nav>
 
@@ -147,33 +137,24 @@
 
 
                                 <div class="form-group">
-                                    <label for="forename">Fornavn</label>
-                                    <input type="text" class="form-control" placeholder="Fornavn" id="forename" name="name">
+                                    <label for="name">Navn</label>
+                                    <input type="text" class="form-control" placeholder="name" id="name" name="name">
                                 </div>
 
 
                                 <div class="form-group">
-                                    <label for="surname">Efternavn</label>
-                                    <input type="text" class="form-control" placeholder="Efternavn" id="surname" name="surname">
+                                    <label for="birthday">Fødselsdag</label>
+                                    <input type="text" class="form-control" placeholder="birthday" id="birthday" name="birthday">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="phone">Telefon nummer</label>
-                                    <input type="text" class="form-control" id="phone" placeholder="Telefon nummer" name="phone">
+                                    <label for="samtykke">Samtykke</label>
+                                    <input type="checkbox" class="form-control" placeholder="samtykke" id="samtykke" name="samtykke">
                                 </div>
-
-
-                                <div class="form-group">
-                                    <label for="email">Email Addresse</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
-                                </div>
-
 
                                 <label>Routing Streng</label>
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('WebChatDSR')">WebChatDSR</a>
-                                    <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('Routing2')">Routing2</a>
-                                    <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('Routing3')">Routing3</a>
                                 </div>
 
                         </div>
@@ -193,7 +174,7 @@
 </body>
 
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
-<script src="https://dsr.dk/static/MiralixChat/Webchat.js"></script>
+<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=1"></script>
 <script>
     function refreshPage() {
         window.location.reload();
