@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .navbar ul {
+                float: left;
+            }
+
+            .navbar li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            /* .navbar li a:hover {
+                        background-color: #111;
+                    } */
+
+            .navbar li {
+                float: right;
+            }
+
+        .nav-link:focus, .nav-link:hover {
+            color: #53ba00;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #53ba00;
+            border-color: #77ce31;
+        }
+
+            .btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+                box-shadow: 0 0 0 0.25rem rgb(40 177 57 / 50%);
+            }
+
+            .btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle {
+                color: #fff;
+                background-color: #76c337;
+                border-color: #21c035;
+            }
+
+            .btn-primary:hover {
+                color: #fff;
+                background-color: #38c32f;
+                border-color: #0aca2a;
+            }
+
+            .btn-check:focus + .btn-primary, .btn-primary:focus {
+                color: #fff;
+                background-color: #11cc28;
+                border-color: #38b747;
+                box-shadow: 0 0 0 0.25rem rgb(81 221 92 / 50%);
+            }
+
+            .routingStrTab {
+                padding: 5px;
+            }
+
+        .form-control:focus {
+            color: #212529;
+            background-color: #fff;
+            border-color: #53ba00;
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgb(129 225 52);
+        }
+
+        .alert {
+            position: relative;
+            padding: 0.7rem 3rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: .25rem;
+            height: 3em;
+        }
+
+        .alert-dismissible .btn-close {
+            position: absolute;
+            top: -0.3rem;
+            right: 2rem;
+            z-index: 2;
+            padding: 1.25rem 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md shadow" style="background-color: #081932;color: white;width: auto;height: 6em;">
+
+        <a class="navbar-brand" style="padding-left: 2em;" href="#">
+            <img src="https://i2.wp.com/www.miralix.dk/wp-content/uploads/Miralix-intelligent-haandtering-af-kundekontakt.png?resize=150%2C55&ssl=1" alt="" width="120px" height="auto">
+        </a>
+
+    </nav>
+
+    <div class="alert alert-primary alert-dismissible fade show shadow" style="background-color: #cdd6e3;color: #081932;" role="alert">
+        <strong>DSR Webchat Eksempel</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="container-fluid">
+        <div style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
+            <input id="beginChat" type="button" onclick="renderUserInfoForm()" class="btn btn-primary shadow" value="Chat">
+            <input id="endChat" class="btn btn-primary shadow" type="button" onclick="disconnectWebChat()" value="Afslut chat" style="display: none;">
+            <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh"><br/>
+            <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5>
+            <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p>
+        </div>
+        <div class="row mb-5" style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
+            <div id="userInfoForm" style="display: none;padding-top: 1em;">
+                <div class="col-md-4">
+
+                    <div class="card text-center shadow" style="width: 20rem;">
+                        <div class="card-body">
+                            <form id="webChatForm">
+				<p>Her kan du chatte med os om medlemskab og kontingent.</p>
+                                <h2>Chat infomation</h2>
+
+				<p>For at kunne hj&aelig;lpe dig bedst muligt, bedes du udfylde:</p>
+                                <div class="form-group">
+                                    <label for="name">Navn</label>
+                                    <input type="text" class="form-control" placeholder="name" id="name" name="name">
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="birthday">F&oslash;dselsdag</label>
+                                    <input type="text" class="form-control" placeholder="birthday" id="birthday" name="birthday">
+                                </div>
+				<br/>
+                                <div class="form-group">
+					<input type="checkbox" placeholder="samtykke" id="samtykke" name="samtykke">
+                                    <label for="samtykke">Samtykke: DSR m&aring; gerne gemme min chat. Jeg kan til enhver tid tr&aelig;kke samtykket tilbage.</label>
+                                    
+                                </div>
+				<p>L&aelig;s mere p&aring; <a href="dsr.dk/privatlivspolitik">dsr.dk/privatlivspolitik</a></p>
+                                <!--
+				<label>Routing Streng</label>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('WebChatDSR')">WebChatDSR</a>
+                                </div>
+				-->
+                        </div>
+
+                        <br>
+                        <div style="margin: 10px">
+                            <button type="submit" name="Bekræft" class="btn btn-primary shadow" style="width: 50%;">Submit</button>
+                        </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="webchat" class="shadow" role="main" style="max-height: 75vh;min-height: 20vh;display: none;"></div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=2"></script>
+<script>
+    function refreshPage() {
+        window.location.reload();
+    }
+</script>
+<!-- Bootstrap Bundle JS (Bootstrap + Popperjs -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
