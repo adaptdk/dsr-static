@@ -115,9 +115,9 @@
             <input id="beginChat" type="button" onclick="renderUserInfoForm()" class="btn btn-primary shadow" value="Chat">
             <input id="endChat" class="btn btn-primary shadow" type="button" onclick="disconnectWebChat()" value="Afslut chat" style="display: none;">
             <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh"><br/>
-            <!--
+            
 	    <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5>
-            <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p> -->
+            <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p> 
         </div>
         <div class="row mb-5" style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
             <div id="userInfoForm" style="display: none;padding-top: 1em;">
@@ -148,11 +148,12 @@
                                 </div>
 				<p>L&aelig;s mere p&aring; <a href="dsr.dk/privatlivspolitik">dsr.dk/privatlivspolitik</a></p>
                                 
+<!--
 				<label>Routing Streng</label>
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('WebChatDSR')">WebChatDSR</a>
                                 </div>
-				
+-->				
                         </div>
 
                         <br>
@@ -170,7 +171,7 @@
 </body>
 
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
-<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=3"></script>
+<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=4"></script>
 <script>
     function refreshPage() {
         window.location.reload();
