@@ -3,7 +3,7 @@ var disconnected = false;
 var _routingData;
 var token;
 //Sæt en default routing streng i variablen herunder, eller lad stå tomt hvis ingen ønskes.
-var _routingStr = 'WebChatDSR';
+var _routingStr = 'WebChatDSR-C';
 var _keyValuePairs;
 //Sæt besked til brugeren af webchatten på hjemmesiden, der vises, når agenten i desktop afslutter samtalen
 var agentDisconnectedMessage = "Agenten har forladt samtalen";
