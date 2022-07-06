@@ -3,7 +3,7 @@ var disconnected = false;
 var _routingData;
 var token;
 //Sæt en default routing streng i variablen herunder, eller lad stå tomt hvis ingen ønskes.
-var _routingStr = 'WebChatDSR';
+var _routingStr = 'WebChatDSR-C';
 var _keyValuePairs;
 //Sæt besked til brugeren af webchatten på hjemmesiden, der vises, når agenten i desktop afslutter samtalen
 var agentDisconnectedMessage = "Agenten har forladt samtalen";
@@ -233,7 +233,7 @@ async function renderWebchatOnDisconnect() {
 
                 botAvatarBackgroundColor: '#1D202D',
                 botAvatarBorderColor: '#F4F4F4',
-                botAvatarImage: 'INDSÆT STI TIL VALGFRIT BILLEDE DER REPRÆSENTERE AGENTEN I SAMTALEN',
+                botAvatarImage: 'kermit.png',
                 botAvatarInitials: '',
                 bubbleBackground: '#126586a1',
                 bubbleBorderColor: '#F4F4F4',
