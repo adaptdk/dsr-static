@@ -19,7 +19,7 @@
             .navbar li a {
                 display: block;
                 color: white;
-                text-align: center;
+                /* text-align: center; */
                 padding: 14px 16px;
                 text-decoration: none;
             }
@@ -38,7 +38,7 @@
 
         .btn-primary {
             color: #fff;
-            background-color: #53ba00;
+            background-color: #981e32;
             border-color: #77ce31;
         }
 
@@ -93,6 +93,14 @@
             z-index: 2;
             padding: 1.25rem 1rem;
         }
+	label {
+		text-align: left;
+	}
+	.cbalign {
+	    display: block;
+
+	    float: left;
+	}
     </style>
 </head>
 <body>
@@ -100,15 +108,20 @@
     <nav class="navbar navbar-expand-md shadow" style="background-color: #081932;color: white;width: auto;height: 6em;">
 
         <a class="navbar-brand" style="padding-left: 2em;" href="#">
-            <img src="https://i2.wp.com/www.miralix.dk/wp-content/uploads/Miralix-intelligent-haandtering-af-kundekontakt.png?resize=150%2C55&ssl=1" alt="" width="120px" height="auto">
+        <!--    <img src="https://i2.wp.com/www.miralix.dk/wp-content/uploads/Miralix-intelligent-haandtering-af-kundekontakt.png?resize=150%2C55&ssl=1" alt="" width="120px" height="auto"> -->
+            <img src="https://dsr.dk/static/Billeder/Mail/DSR/dsr.png?resize=150%2C55&ssl=1" alt="" width="200px" height="auto">
+
+
         </a>
 
     </nav>
 
+    <!--
     <div class="alert alert-primary alert-dismissible fade hide shadow" style="background-color: #cdd6e3;color: #081932;" role="alert">
         <strong>DSR Webchat Eksempel</strong>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
+    -->
 
     <div class="container-fluid">
         <div style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
@@ -116,49 +129,52 @@
             <input id="endChat" class="btn btn-primary shadow" type="button" onclick="disconnectWebChat()" value="Afslut chat" style="display: none;">
             <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh"><br/>
             
-	    <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5>
-            <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p> 
+	    <!-- <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5> -->
+            <p style="display:none; color:rgb(15, 13, 13);" id="routingStr"> </p> 
         </div>
         <div class="row mb-5" style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
             <div id="userInfoForm" style="display: none;padding-top: 1em;">
                 <div class="col-md-4">
 
-                    <div class="card text-center shadow" style="width: 20rem;">
+                    <div class="card  shadow" style="width: 20rem;">
                         <div class="card-body">
                             <form id="webChatForm">
-				<p>Her kan du chatte med os om medlemskab og kontingent.</p>
-                                <h2>Chat infomation</h2>
+				<p class="text-center">Her kan du chatte med os om medlemskab og kontingent.</p>
+                                <h2 class="text-center">Chat infomation</h2>
 
 				<p>For at kunne hj&aelig;lpe dig bedst muligt, bedes du udfylde:</p>
                                 <div class="form-group">
                                     <label for="name">Navn</label>
-                                    <input type="text" class="form-control" placeholder="name" id="name" name="name">
+                                    <input type="text" class="form-control" placeholder="navn" id="name" name="name">
                                 </div>
 
 
                                 <div class="form-group">
                                     <label for="birthday">F&oslash;dselsdag</label>
-                                    <input type="text" class="form-control" placeholder="birthday" id="birthday" name="birthday">
+                                    <input type="text" class="form-control" placeholder="f&oslash;dselsdag" id="birthday" name="birthday">
                                 </div>
 				<br/>
                                 <div class="form-group">
-					<input type="checkbox" placeholder="samtykke" id="samtykke" name="samtykke" value="OK">
-                                    <label for="samtykke">Samtykke: DSR m&aring; gerne gemme min chat. Jeg kan til enhver tid tr&aelig;kke samtykket tilbage.</label>
+				    <input type="hidden" name="samtykke" id="samtykke" value="Nej">
+				    
+                                    <label for="samtykkecb">&nbsp;
+				    <input type="checkbox" placeholder="samtykkecb" id="samtykkecb" name="samtykkecb" value="OK" onclick="ChangeSamtykke();"  class="cbalign">Samtykke: DSR m&aring; gerne gemme min chat. Jeg kan til enhver tid tr&aelig;kke samtykket tilbage.</label>
                                     
-                                </div>
-				<p>L&aelig;s mere p&aring; <a href="dsr.dk/privatlivspolitik">dsr.dk/privatlivspolitik</a></p>
+                                </div><br/>
                                 
 <!--
 				<label>Routing Streng</label>
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('WebChatDSR')">WebChatDSR</a>
                                 </div>
--->				
+-->				<br/>
+				<p>L&aelig;s mere p&aring; <a href="dsr.dk/privatlivspolitik">dsr.dk/privatlivspolitik</a></p>
+
                         </div>
 
                         <br>
                         <div style="margin: 10px">
-                            <button type="submit" name="Bekræft" class="btn btn-primary shadow" style="width: 50%;">Submit</button>
+                            <button type="submit" name="Bekræft" class="btn btn-primary shadow" style="width: 50%;">Start chat</button>
                         </div>
 
                         </form>
@@ -169,7 +185,15 @@
         </div>
     </div>
 </body>
-
+<script>
+	function ChangeSamtykke()
+	{
+		if(document.getElementById("samtykkecb").checked)
+			document.getElementById("samtykke").value="Ja";
+		else
+			document.getElementById("samtykke").value="Nej";
+	}
+</script>
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
 <script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=5"></script>
 <script>
