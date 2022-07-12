@@ -10,9 +10,9 @@ var agentDisconnectedMessage = "Agenten har forladt samtalen";
 //Sæt besked der vises når der skabt forbindelse til botten
 var waitForAgentMessage = "Vent venligst mens vi finder en ledig medarbejder";
 //Sæt besked der vises i tilfælde af at botten ikke kan finde en chatservice at forbinde sig til
-var noChatServiceFoundMessage = "Chatten er ikke tilgængelig lige nu";
+var noChatServiceFoundMessage = "Chatten er ikke tilg&aelig;ngelig lige nu";
 
-document.getElementById('routingStr').innerHTML = _routingStr;
+//document.getElementById('routingStr').innerHTML = _routingStr;
 
 
 const store = window.WebChat.createStore({},
@@ -155,17 +155,20 @@ async function renderWebChat() {
 }
 
 function disconnectWebChat() {
+alert('DISCONNECT');
     const eventSendMessage = new Event('Disconnect');
     window.dispatchEvent(eventSendMessage);
     connectedToConversation = false;
     document.getElementById('webchat').style.display = "none";
     document.getElementById('beginChat').style.display = "unset";
     document.getElementById('endChat').style.display = "none";
+    document.getElementById('userFeedbackForm').style.display = "unset";
+
 }
 
 function setWebChatRoutingString(routingStr) {
     _routingStr = routingStr;
-    document.getElementById('routingStr').innerHTML = _routingStr;
+    //document.getElementById('routingStr').innerHTML = _routingStr;
 
 }
 

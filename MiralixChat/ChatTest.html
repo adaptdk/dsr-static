@@ -39,7 +39,7 @@
         .btn-primary {
             color: #fff;
             background-color: #981e32;
-            border-color: #77ce31;
+            border-color: #6d1624;
         }
 
             .btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -54,8 +54,8 @@
 
             .btn-primary:hover {
                 color: #fff;
-                background-color: #38c32f;
-                border-color: #0aca2a;
+                background-color: #6d1624;
+                border-color: #981e32;
             }
 
             .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -105,7 +105,7 @@
 </head>
 <body onload="renderUserInfoForm();setWebChatRoutingString('WebChatDSR-C');">
 
-    <nav class="navbar navbar-expand-md shadow" style="background-color: #081932;color: white;width: auto;height: 6em;">
+    <nav class="navbar navbar-expand-md shadow" style="background-color: #981e32;color: white;width: auto;height: 6em;">
 
         <a class="navbar-brand" style="padding-left: 2em;" href="#">
         <!--    <img src="https://i2.wp.com/www.miralix.dk/wp-content/uploads/Miralix-intelligent-haandtering-af-kundekontakt.png?resize=150%2C55&ssl=1" alt="" width="120px" height="auto"> -->
@@ -130,9 +130,10 @@
             <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh" style="display: none;"><br/>
             
 	    <!-- <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5> -->
-            <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p> 
+            <!-- <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p> -->
         </div>
         <div class="row mb-5" style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
+
             <div id="userInfoForm" style="display: none;padding-top: 1em;">
                 <div class="col-md-4">
 
@@ -182,6 +183,54 @@
                 </div>
             </div>
             <div id="webchat" class="shadow" role="main" style="max-height: 75vh;min-height: 20vh;display: none;"></div>
+
+
+            <div id="userFeedbackForm" style="display: none;padding-top: 1em;">
+                <div class="col-md-4">
+
+                    <div class="card  shadow" style="width: 20rem;">
+                        <div class="card-body">
+                            <form id="feedbackForm">
+				<p class="text-center">Hjælp os med at gøre vores chatservice bedre:</p>
+
+                                <div class="form-group">
+                                    <label for="tilfreds">Hvor tilfreds er du med chatten?</label><br/>
+                                    <input type="radio" xclass="form-control" placeholder="tilfreds" id="t1" name="tilfreds"> <label for="t1">1 :(</label><br/>
+                                    <input type="radio" xclass="form-control" placeholder="tilfreds" id="t2" name="tilfreds"> <label for="t2">2</label><br/>
+                                    <input type="radio" xclass="form-control" placeholder="tilfreds" id="t3" name="tilfreds"> <label for="t3">3 :|</label><br/>
+                                    <input type="radio" xclass="form-control" placeholder="tilfreds" id="t4" name="tilfreds"> <label for="t4">4</label><br/>
+                                    <input type="radio" xclass="form-control" placeholder="tilfreds" id="t5" name="tilfreds"> <label for="t5">5 :)</label><br/>
+                                </div>
+
+				<br/>
+                                <div class="form-group">
+                                    <label for="where">Hvor har du hørt om din mulighed for at chatte med os?</label>
+                                    <input type="text" class="form-control" placeholder="where" id="where" name="where">
+                                </div>
+				<br/>
+                                <div class="form-group">
+                                    <label for="why">Hvorfor har du valgt at chatte med os i stedet for andre alternativer (mail, telefon)?
+				    <input type="text" class="form-control" placeholder="why" id="why" name="why">
+                                    
+                                </div><br/>
+                                
+
+                        </div>
+
+                        <br>
+                        <div style="margin: 10px">
+                            <button type="submit" name="Feedback" class="btn btn-primary shadow" style="width: 50%;">Send feedback</button>
+                        </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
         </div>
     </div>
 </body>
@@ -195,7 +244,7 @@
 	}
 </script>
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
-<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=6"></script>
+<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=10"></script>
 <script>
     function refreshPage() {
         window.location.reload();
