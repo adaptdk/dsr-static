@@ -155,7 +155,6 @@ async function renderWebChat() {
 }
 
 function disconnectWebChat() {
-alert('DISCONNECT');
     const eventSendMessage = new Event('Disconnect');
     window.dispatchEvent(eventSendMessage);
     connectedToConversation = false;
@@ -219,6 +218,7 @@ form.addEventListener('submit', handleSubmit);
 function renderUserInfoForm() {
     document.getElementById('userInfoForm').style.display = "block";
     document.getElementById('beginChat').style.display = "none";
+    document.getElementById('userFeedbackForm').style.display = "none";
 }
 
 async function renderWebchatOnDisconnect() {
