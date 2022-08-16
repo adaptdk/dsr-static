@@ -107,13 +107,10 @@
 </head>
 <body onload="renderUserInfoForm();setWebChatRoutingString('WebChatDSR-C');">
 
-    <nav class="navbar navbar-expand-md shadow" style="background-color: #981e32;color: white;width: auto;height: 6em;">
+    <nav class="navbar navbar-expand-md shadow" style="background-color: #981e32;color: white;width: auto;height: 4em;">
 
-        <a class="navbar-brand" style="padding-left: 2em;" href="#">
-        <!--    <img src="https://i2.wp.com/www.miralix.dk/wp-content/uploads/Miralix-intelligent-haandtering-af-kundekontakt.png?resize=150%2C55&ssl=1" alt="" width="120px" height="auto"> -->
-            <img src="https://dsr.dk/static/Billeder/Mail/DSR/dsr.png?resize=150%2C55&ssl=1" alt="" width="250px" height="auto">
-
-
+        <a class="navbar-brand" style="padding-left: 2em;color:white" href="#">
+            <img src="https://dsr.dk/static/Billeder/Mail/DSR/DSRlogo.png?resize=150%2C55&ssl=1" alt="" width="150px" height="auto">
         </a>
 
     </nav>
@@ -126,7 +123,7 @@
     -->
 
     <div class="container-fluid">
-        <div style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
+        <div style="padding-top: 0.5em;padding-right: 2em;padding-left: 2em;">
             <input id="beginChat" type="button" onclick="renderUserInfoForm()" class="btn btn-primary shadow" value="Chat" style="display: none;">
             <input id="endChat" class="btn btn-primary shadow" type="button" onclick="disconnectWebChat()" value="Afslut chat" style="display: none;">
             <input class="btn btn-primary shadow" type="button" onClick="refreshPage()" value="Refresh" style="display: none;"><br/>
@@ -134,7 +131,7 @@
 	    <!-- <h5 style="display: inline; color:rgb(3, 3, 3); margin-left: 15px;"><b>Aktiv routing streng:   </b></h5> -->
             <!-- <p style="display:inline; color:rgb(15, 13, 13);" id="routingStr"> </p> -->
         </div>
-        <div class="row mb-5" style="padding-top: 1em;padding-right: 2em;padding-left: 2em;">
+        <div class="row mb-5" style="padding-top: 0.5em;padding-right: 2em;padding-left: 2em;">
 
             <div id="userInfoForm" style="display: none;padding-top: 1em;">
                 <div class="col-md-4">
@@ -163,19 +160,20 @@
                                     <label for="samtykkecb">&nbsp;
 				    <input type="checkbox" placeholder="samtykkecb" id="samtykkecb" name="samtykkecb" value="OK" onclick="ChangeSamtykke();"  class="cbalign">Samtykke: DSR m&aring; gerne gemme min chat. Jeg kan til enhver tid tr&aelig;kke samtykket tilbage.</label>
                                     
-                                </div><br/>
+                                </div>
                                 
 <!--
 				<label>Routing Streng</label>
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary routingStrTab" href="#" onclick="setWebChatRoutingString('WebChatDSR-C')">WebChatDSR-C</a>
                                 </div>
--->				<br/>
+-->				
+				<div style="height:10px">&nbsp;</div>
 				<p>L&aelig;s mere p&aring; <a href="dsr.dk/privatlivspolitik">dsr.dk/privatlivspolitik</a></p>
 
                         </div>
 
-                        <br>
+                        
                         <div style="margin: 10px">
                             <button type="submit" name="Bekræft" class="btn btn-primary shadow" style="width: 50%;">Start chat</button>
                         </div>
@@ -187,7 +185,7 @@
             <div id="webchat" class="shadow" role="main" style="max-height: 75vh;min-height: 20vh;display: none;"></div>
 
 
-            <div id="userFeedbackForm" style="display: none;padding-top: 1em;">
+            <div id="userFeedbackForm" style="display: none;padding-top: 0.5em;">
                 <div class="col-md-4">
 
                     <div class="card  shadow" style="width: 20rem;">
@@ -246,7 +244,7 @@
 	}
 </script>
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
-<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=12"></script>
+<script src="https://dsr.dk/static/MiralixChat/Webchat.js?test=13"></script>
 <script>
     function refreshPage() {
         window.location.reload();
