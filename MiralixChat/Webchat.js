@@ -8,7 +8,7 @@ var _keyValuePairs;
 //Sæt besked til brugeren af webchatten på hjemmesiden, der vises, når agenten i desktop afslutter samtalen
 var agentDisconnectedMessage = "Agenten har forladt samtalen";
 //Sæt besked der vises når der skabt forbindelse til botten
-var waitForAgentMessage = "Vent venligst mens vi finder en ledig medarbejder";
+var waitForAgentMessage = "Velkommen til DSR's webchat. Vent venligst mens vi finder en ledig medarbejder";
 //Sæt besked der vises i tilfælde af at botten ikke kan finde en chatservice at forbinde sig til
 var noChatServiceFoundMessage = "Chatten er ikke tilg&aelig;ngelig lige nu";
 
