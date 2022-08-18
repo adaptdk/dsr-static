@@ -84,8 +84,8 @@ async function renderWebChat() {
 
         botAvatarBackgroundColor: '#1D202D',
         botAvatarBorderColor: '#F4F4F4',
-        //botAvatarImage: '',
-        botAvatarInitials: '',
+        botAvatarImage: '',
+        botAvatarInitials: 'DSR',
         bubbleBackground: '#126586a1',
         bubbleBorderColor: '#F4F4F4',
         bubbleBorderRadius: 5,
@@ -236,8 +236,8 @@ async function renderWebchatOnDisconnect() {
 
                 botAvatarBackgroundColor: '#1D202D',
                 botAvatarBorderColor: '#F4F4F4',
-                //botAvatarImage: '',
-                botAvatarInitials: '',
+                botAvatarImage: '',
+                botAvatarInitials: 'DSR',
                 bubbleBackground: '#126586a1',
                 bubbleBorderColor: '#F4F4F4',
                 bubbleBorderRadius: 5,
