@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+	body {font-size:22px}
+	.header {font-size:18px; cursor:hand}
+	.txt {font-size:15px; display:none}
+	.sec {font-weight:bold;cursor:hand}
+</style>
+<script>
+function showHide(tag)
+{
+	var sec=document.getElementById(tag);
+
+	if(sec.style.display==="none")
+	{
+		sec.style.display="block";
+	}
+	else
+	{
+		sec.style.display="none";
+	}
+}
+
+function select(h, no)
+{
+	var txt=document.getElementById("Text"+h + "_" + no).innerHTML;
+
+	document.getElementById("selected").innerHTML=txt;
+	//navigator.clipboard.writeText(txt);
+	copyToClickBoard(txt);
+}
+function pick(tag)
+{
+	var txt=tag.innerHTML;
+
+	document.getElementById("selected").innerHTML=txt;
+	//navigator.clipboard.writeText(txt);
+	copyToClickBoard(txt);
+}
+
+function copyToClickBoard(content){
+    //var content = document.getElementById('textArea').innerHTML;
+
+    navigator.clipboard.writeText(content)
+        .then(() => {
+        console.log("Text copied to clipboard...")
+    })
+        .catch(err => {
+        console.log('Something went wrong', err);
+    })
+ 
+}
+</script>
+
+</head>
+<body>
+<div class="sec" onclick="showHide('section1');">+ FS</div>
+   <div id="section1" style="display:none">	
+	<li id="Select1_1" class="header" onclick="select(1,1);">Udmeldelse – Jeg kan melde dig ud af FS</li>
+	<div id="Text1_1" class="txt">Jeg kan registrere det for dig med det samme. Det faglige selskab bliver automatisk orienteret om din indmeldelse.
+Hvis du har spørgsmål til dit FS-medlemskab, skal du henvende dig direkte til det faglige selskab.
+</div>
+   </div>
+
+<div class="sec" onclick="showHide('section2');">+ Argumenter</div>
+<div id="section2" style="display:none;padding:10px">
+      <div onclick="showHide('section2a');">+ Argumenter – ’punch lines’ – her kan plukkes</div>
+      <div id="section2a" style="display:none;padding:10px">
+	<li id="Select2_1" class="header" onclick="pick(this);">Det er vanskeligt i et kønsopdelt arbejdsmarked at opnå ligeløn mellem kønnene</li>
+	<li id="Select2_2" class="header" onclick="pick(this);">Vi er nødt til at stå sammen. Der sker mange ting i samfundet, afskedigelser, fusioner, forandringer, hvor personalet føler sig klemt ude på arbejdspladserne</li>
+	<li id="Select2_3" class="header" onclick="pick(this);">Fællesskabet står på mål for hinanden</li>
+	<li id="Select2_4" class="header" onclick="pick(this);">Vi har jurister og faglige konsulenter, som kender sygeplejerskernes arbejdspladser, hvad får du hos Krifa, Det faglige Hus...?</li>
+	<li id="Select2_5" class="header" onclick="pick(this);">Det er os, der kender sundhedsvæsenet, vi arbejder for uddannelse, tilbyder sygeplejefaglig karrierevejledning</li>
+	<li id="Select2_6" class="header" onclick="pick(this);">Vi har konsulenter, som kender til sygeplejerskernes situation ved f.eks. arbejdsskade eller patientklage</li>
+	<li id="Select2_7" class="header" onclick="pick(this);">Vi yder hjælp ved arbejdspladsers konkurs i fht. Lønmodtagernes garantifond</li>
+	<li id="Select2_8" class="header" onclick="pick(this);">Under OK 18-forhandlingerne, talte arbejdsgiverne om at opsige kutymefridagene over for AC'erne, det vil sige jule- og nytårsaftensdag og grundlovsdag.</li>
+      </div>
+      <div onclick="showHide('section2b');">+ Udmeld - vi er kun så stærke. skift til OK-fagforening</div>
+      <div id="section2b" style="display:none;padding:10px">
+	<li id="Select2b_1" class="header" onclick="pick(this);">Vi er naturligvis kede af, at du vælger at forlade sygeplejerskernes fællesskab.</li>
+	<li id="Select2b_2" class="header" onclick="pick(this);">Vi er kun så stærke, som vi har medlemmer til. </li>
+	<li id="Select2b_3" class="header" onclick="pick(this);">Vi har brug for at stå stærkt, når vi f.eks. passer på de fordele, som man let kan komme til at tage for givet; løn under sygdom/barsel/ferie/omsorgsdage. Det er udgifter som Arbejdsgiverne gladelig vil slippe for. Jeg håber under alle omstændigheder, at du skifter os ud med en fagforening, som bruger kræfter på at forhandle dine arbejdsvilkår - også på den lange bane.</li>
+      </div>
+      <div onclick="showHide('section2c');">+ Retten til ferie kom ikke af sig selv</div>
+      <div id="section2c" style="display:none;padding:10px">
+	<li id="Select2c_1" class="header" onclick="pick(this);">Jeg kan nævne for dig, at retten til at holde ferie med løn ikke kom af sig selv. Tværtimod, så har fagforeningerne og lønmodtagerne kæmpet - og kæmper stadig for dine forhold på og uden for jobbet.</li>
+	<li id="Select2c_2" class="header" onclick="pick(this);">Derfor har vi i dag den såkaldte ferielov, som f.eks. sikrer, at alle lønmodtagere på en overenskomstbaseret kontrakt er omfattet af ferieloven. Når du er ansat efter en overenskomst, som en forhandlingsberettiget fagforening, som DSR, har forhandlet hjem til dig og dine kollegaer, har du yderligere rettigheder, end dem ferieloven sikrer, f.eks. løn under barsel og sygdom.</li>
+      </div>
+</div>
+
+<div class="sec" onclick="showHide('section3');">+ Medlem af anden fagforening/a-kasse?</div>
+   <div id="section3" style="display:none;padding:10px">
+	<li id="Select2_1" class="header" onclick="select(3,1);">Overflyttes?</li>
+	<div id="Text3_1" class="txt">Der er lige nogle ting, som du skal være opmærksom på, hvis du ønsker at blive overflyttet fra en anden fagforening eller a-kasse. Det kan du læse mere om her: https://dsr.dk/medlemskab/bliv-medlem/medlem-af-en-anden-fagforening</div>
+   </div>
+
+<div class="sec" onclick="showHide('section4');">+ Blad - Kalender</div>
+   <div id="section4" style="display:none;padding:10px">
+	<li id="Select4_1" class="header" onclick="select(4,1);">Blad stoppes</li>
+	<div id="Text4_1" class="txt">Jeg skal sørge for, at vi stopper med at sende Sygeplejersken til dig. Du kan altid læse bladet online - og hvis du kommer til at savne papirudgaven, skal du blot bede os om at levere det til din postkasse igen.
+Du vil formentlig modtage et blad mere fra os. Adressefilen til udsendelse af Sygeplejersken produceres i ret god tid før bladene sendes ud.
+</div>
+	<li id="Select4_2" class="header" onclick="select(4,2);">Korrekt adresse?</li>
+	<div id="Text4_2" class="txt">Må jeg bede om din adresse, så jeg kan tjekke, om det er den rigtige adresse, vi har?</div>
+	<li id="Select4_3" class="header" onclick="select(4,3);">Navn på postkassen?</li>
+	<div id="Text4_3" class="txt">Jeg skal lige sikre mig, at dit navn står på postkassen?</div>
+	<li id="Select4_4" class="header" onclick="select(4,4);">Placering af postkasse?</li>
+	<div id="Text4_4" class="txt">Hvor er postkassen placeret? Står den ved vejen? Eller kræver det nøgle til en opgang/port at komme til den?</div>
+	<li id="Select4_5" class="header" onclick="select(4,5);">Formular – Udeblevet blad</li>
+	<div id="Text4_5" class="txt">Jeg vil bede dig om at give os besked om manglende blad via hjemmesiden: https://dsr.dk/sygeplejersken/kontakt/jeg-har-ikke-modtaget-sygeplejersken  - Du kan logge på med NemID.</div>
+	<li id="Select4_6" class="header" onclick="select(4,6);">Link til udgivelsesplan</li>
+	<div id="Text4_6" class="txt">Her kan du se, hvornår de næste blade udkommer: https://dsr.dk/sygeplejersken/om-sygeplejersken/udgivelsesplan 
+
+</div>
+   </div>
+
+
+<br/>
+<div id="selected" style="font-size:15; color:blue"></div>
+</body>
+</html>
